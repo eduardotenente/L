@@ -13,6 +13,30 @@ body {
     background-size: cover;
 }
 
-h1 {
-    color: white;
+nav {
+    position: relative;
+}
+
+menu {
+    position: absolute;
+}
+
+menu > img {
+    width: 80%;
+    height: 500px;
+}
+
+menu > a > div#personal {
+    background: url(../imagens/) center center no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    width: 40%; 
+}
+
+menu > a > div#musics {
+
+}
+
+menu > a > div#urso { 
+
 }
